@@ -6,7 +6,8 @@ import PackageDescription
 let package = Package(
     name: "Sardonyx",
     platforms: [
-        .macOS(.v10_13)
+        .macOS(.v10_13),
+        .iOS(.v14)
     ],
     dependencies: [
         .package(url: "https://github.com/apple/swift-argument-parser", .upToNextMinor(from: "0.2.0")),
